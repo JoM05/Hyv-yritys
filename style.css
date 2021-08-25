@@ -1,12 +1,53 @@
 div{
   background-color: pink;
   color: blue;
-  text-align: center;
+  ;
 }
 
-#nooa{
-  height:40%;
+#kakku{
+  width:100%;
+  text-align: center;
 }  
 ul{
   list-style: none;
+}
+
+#Nimi{
+  width:90%;
+}
+
+#merkinta{
+  width:91% ;
+  background-color: black;
+  color: white;
+}  
+
+#peruna{
+  width:95%;
+  margin: auto;
+  text-align: left;
+}
+
+#moro{
+  background-color: black;
+  color: white;
+  width: 92%
+}
+
+#porkkana{
+  background-color: white;
+  text-align: left;
+  margin: auto;
+}
+
+body{
+  background-color: gray;
+}
+
+#apina{
+background-color: gray; 
+}
+
+#nappi{
+  text-align: center;
 }

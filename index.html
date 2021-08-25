@@ -7,16 +7,37 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div id="nooa">
+    
+    <div id="kakku">
       <H2>Tieto- ja viestintätekniikan perustehtävät</H2>
     </div>
+    
 
-    <div>
+    <div id="peruna">
+      <P>
+        <H3> Lisää merkintä</H3>
+      </P>
       <ul>
-      <li><label>Nimi</label><input type="text" id="Nimi"></li>
-      <li><label>Nimi</label><input type="text" id="Nimi"></li>
+        <li><H5><label>Nimi</label><br><input type="text" id="Nimi"></H5></li>
+        <li><H5><label>Tieto</label><br><input type="text" id="Nimi"></H5></li>
+        <input id="merkinta" type="submit" value="Lisää tietoa">
       <ul>
     </div>
-    <script src="script.js"></script>
+     <script src="script.js"></script>
+    <div id="apina">
+     <ul class="boksit">
+        <P>
+          <H3>Suoritettava</H3>
+        </P>
+       <li class="sisalto"><input type="checkbox" id="teht_a">HTML</li>
+       <li class="sisalto"><input type="checkbox" id="teht_b">CSS</li>
+       <li class="sisalto"><input type="checkbox" id="teht_c">JavaScript</li>
+       <li class="sisalto"><input type="checkbox" id="teht_d">CI/CD</li>
+       <input id="moro" type="submit" value="Merkkaa">
+     </ul>
+    </div>
+    
+    
+  
   </body>
 </html>
