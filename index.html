@@ -1,43 +1,38 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
     <div id="kakku">
       <H2>Tieto- ja viestintätekniikan perustehtävät</H2>
     </div>
-    
 
-    <div id="peruna">
+     <div id="peruna"></div>
+        
+        <form id="opiskelija-lomake">
+          <P><label>Nimi</label><br><input type="text" id="kentta"></P>
+              <P><label>Tietoa</label><br><input type="text" id="kentta2"></P>
+              <input class="lisaaNappi" type="submit" value="Lisaa">
+              <div id="ruoka" class="ilmoitus"></div>
+        </form>
+      
+      <div> 
       <P>
-        <H3> Lisää merkintä</H3>
-      </P>
-      <ul>
-        <li><H5><label>Nimi</label><br><input type="text" id="Nimi"></H5></li>
-        <li><H5><label>Tieto</label><br><input type="text" id="Nimi"></H5></li>
-        <input id="merkinta" type="submit" value="Lisää tietoa">
-      <ul>
-    </div>
-     <script src="script.js"></script>
-    <div id="apina">
-     <ul class="boksit">
-        <P>
           <H3>Suoritettava</H3>
         </P>
+     <ul class="boksit">
+        
        <li class="sisalto"><input type="checkbox" id="teht_a">HTML</li>
+
        <li class="sisalto"><input type="checkbox" id="teht_b">CSS</li>
+
        <li class="sisalto"><input type="checkbox" id="teht_c">JavaScript</li>
+       
        <li class="sisalto"><input type="checkbox" id="teht_d">CI/CD</li>
-       <input id="moro" type="submit" value="Merkkaa">
      </ul>
+     <input class="moro" id="moro" type="submit" value="Merkkaa">
     </div>
-    
-    
-  
+
+    <script src="script.js"></script>            
   </body>
 </html>

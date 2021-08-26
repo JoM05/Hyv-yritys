@@ -12,7 +12,8 @@ ul{
   list-style: none;
 }
 
-#Nimi{
+
+#Koira{
   width:90%;
 }
 
@@ -50,4 +51,12 @@ background-color: gray;
 
 #nappi{
   text-align: center;
+}
+
+#Nimi{
+  width: 90%
+}
+
+#ruoka{
+  background-color: gray;
 }
