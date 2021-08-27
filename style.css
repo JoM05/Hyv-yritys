@@ -1,8 +1,7 @@
 div{
   background-color: pink;
   color: blue;
-  ;
-}
+  }
 
 #kakku{
   width:100%;
@@ -23,40 +22,42 @@ ul{
   color: white;
 }  
 
-#peruna{
-  width:95%;
-  margin: auto;
-  text-align: left;
-}
-
 #moro{
   background-color: black;
   color: white;
   width: 92%
 }
 
-#porkkana{
-  background-color: white;
-  text-align: left;
-  margin: auto;
-}
-
 body{
   background-color: gray;
-}
-
-#apina{
-background-color: gray; 
 }
 
 #nappi{
   text-align: center;
 }
 
-#Nimi{
-  width: 90%
+#ruoka{
+  background-color: gray;
 }
 
-#ruoka{
+#nappula{
+  width: 92%
+}
+
+
+#kentta{
+  width: 70%
+}
+
+#kentta2{
+  width: 70%
+}
+
+#makkaraperunat{
+  background-color: grey;
+  color: black;
+}
+
+#seppo{
   background-color: gray;
 }

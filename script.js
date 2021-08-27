@@ -5,13 +5,6 @@ document.querySelector('.lisaaNappi').addEventListener('click', e =>{
   console.log(document.querySelector('#kentta2').value);
   document.querySelector('.ilmoitus').innerHTML = document.querySelector('#kentta').value + ": "+document.querySelector('#kentta2').value;
 
-if(kentta.value.length == 0){
-alert("oon tyhäm")
-}
-
-if(kentta2.value.length == 0){
-alert("oon tyhäm")
-}
 
 });
 
@@ -55,3 +48,17 @@ else {
 
 });
 
+document.querySelector('.LisaaNappi').addEventListener('click', e =>{
+  e.preventDefault();
+  console.log("neemoseti");
+  if (document.querySelector('#kentta').value=='' || document.querySelector("#kenttä2").value==''){
+    document.querySelector('.Jorma').innerHTML = 'Täytä kaikki kentät';
+    setTimeout(() => document.querySelector('.Jorma').innerHTML='', 3000);
+}
+else{
+  document.querySelector('.Jorma').innerHTML = document.querySelector('#kentta').value + ": " + document.querySelector("#kentta2").value ;
+}
+
+
+
+});
